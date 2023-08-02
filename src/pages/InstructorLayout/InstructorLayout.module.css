@@ -1,0 +1,22 @@
+.outerDiv {
+  width: 100%;
+  height: 100%;
+  margin-top: 4.4rem;
+}
+
+.innerDiv {
+  width: 100%;
+  min-height: calc(100vh - 4.4rem);
+  height: 100%;
+  display: flex;
+}
+
+.dummy {
+  width: 50px;
+  height: 100%;
+  background-color: rebeccapurple;
+}
+
+.outletBdy {
+  width: 100%;
+}

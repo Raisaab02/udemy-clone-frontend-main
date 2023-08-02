@@ -1,0 +1,56 @@
+.outerDiv {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--gray);
+}
+
+.innerDiv {
+  width: 70%;
+}
+
+.bodySec {
+  width: 65%;
+}
+
+.rightSidebar {
+  width: 35%;
+}
+
+.boxSection {
+  margin: 2rem 0;
+}
+
+.secTtl {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.secBdy {
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.crseDesc {
+  font-size: 1rem;
+  text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+  .bodySec {
+    width: 100%;
+  }
+  .rightSidebar {
+    width: 0%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .innerDiv {
+    width: 90%;
+  }
+}

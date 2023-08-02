@@ -1,0 +1,80 @@
+.outerDiv {
+  width: 100%;
+  height: 100%;
+  margin: 1rem 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.ratingBox {
+  width: max-content;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ratingNum {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--glodish1);
+}
+
+.rStars {
+  width: 100%;
+  display: flex;
+}
+
+.ratingTxt {
+  font-weight: 700;
+  color: var(--glodish1);
+}
+
+.bar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.ratingBar {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+
+.progressBars {
+  width: 100%;
+  flex: 1;
+}
+
+.starsItem {
+  display: flex;
+  gap: 0.5rem;
+  align-content: center;
+}
+
+.starIcon {
+  width: 20px;
+  height: 20px;
+  margin: 0 0.2rem;
+}
+
+.rating {
+  width: 10px;
+  color: var(--indigo);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.ratingBar {
+  display: flex;
+}
+
+@media screen and (max-width: 426px) {
+  .outerDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}

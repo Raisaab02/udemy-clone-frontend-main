@@ -1,0 +1,53 @@
+.editorBox {
+  width: auto;
+  height: auto;
+}
+
+.textEditor {
+  margin: 1rem 0;
+  border: 1px solid var(--gray);
+}
+
+.toolBar {
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  border-bottom: 1px solid var(--gray);
+}
+
+.toolItem {
+  width: 40px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.toolItemActive {
+  color: var(--white);
+  background-color: var(--gray);
+  outline: 1px solid var(--gray);
+}
+
+.label {
+  color: var(--gray);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.editor {
+  border: none;
+  outline: none;
+  padding: 1rem;
+  min-height: 5rem;
+}
+
+.note {
+  font-size: 0.7rem;
+  color: var(--light-gray);
+}

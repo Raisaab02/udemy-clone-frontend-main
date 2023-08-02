@@ -1,0 +1,79 @@
+.outerDiv {
+  width: 100%;
+  height: 100%;
+}
+
+.topBar {
+  width: 100%;
+  height: 8rem;
+  color: var(--white);
+  background-color: var(--gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topBarTtl {
+  width: 65%;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.menuBar {
+  margin-bottom: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--gray);
+}
+
+.links {
+  width: 65%;
+  display: flex;
+  justify-content: left;
+  gap: 2rem;
+  overflow: scroll;
+}
+
+.links::-webkit-scrollbar {
+  display: none;
+}
+
+.link {
+  padding: 0.5rem;
+  font-weight: 700;
+  color: var(--gray86);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.linkActive {
+  color: var(--white);
+  border-bottom: 5px solid var(--white);
+}
+
+.outletBdy {
+  width: 65%;
+  margin: 2rem 0;
+  min-height: 40vh;
+  margin: auto;
+  /* background-color: orange; */
+}
+
+@media screen and (max-width: 1024px) {
+  .topBarTtl,
+  .links,
+  .outletBdy {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topBarTtl,
+  .links,
+  .outletBdy {
+    width: 90%;
+  }
+}
